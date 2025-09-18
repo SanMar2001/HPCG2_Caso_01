@@ -52,7 +52,9 @@ int main(int argc, char *argv[]) {
     fill_random(B, n);
     
     double start_time = get_time();
+
     multiply(A, B, C, n);
+    
     double end_time = get_time();
     double execution_time = end_time - start_time;
     execution_time = fabs(execution_time);
